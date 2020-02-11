@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="navbar_css.css">
+  <link rel="stylesheet" href="masa_calcul_v2.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+  <center> <div class="topnav" id="myTopnav">
+    <a href="masa_calcul_v2.html" class="active">Clacul masa</a>
+    <a href="index.html">Tabelul periodic</a>
+    <a href="calcul_procent.html">Calcul procent</a>
+    <a href="about.html">Despre</a>
+   <a href="javascript:void(0);" class="icon" onclick="myFunctionNavbar()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+  <div>
+    <table id="myTable" class="pure-table pure-table-horizontal">
+      <tr>
+        <th>Element</th>
+        <th>Nr. de atomi</th>
+        <th></th>
+      </tr>
+      <tr>
+        <td><select  name="elements" class="elements" onChange="myNewFunction(this)"></select></td>
+        <td>
+          <input type="number" min="0" class="nato_pf" >
+        </td>
+        <td class="delete" ><img src="delete_.png" alt="Sterge element"></td>
+      </tr>
+     
+    </table>
+   
+
+   
+  <!--</div> <button onclick="myCreateFunction()"><img src="add_.png" alt="Adauga element"></button></center>
+  -->
+  <p id="result"></p>
+  <script src="script.js"></script>
+  <script src="masa_calcul_v2.js"></script>
+</body>
+
+</html>

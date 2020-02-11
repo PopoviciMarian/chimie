@@ -1,0 +1,126 @@
+[{
+  "symbol": "C",
+  "atomic_mass": 12
+},
+{
+  "symbol": "H",
+  "atomic_mass": 1
+},
+{
+  "symbol": "O",
+  "atomic_mass": 16
+},
+{
+  "symbol": "N",
+  "atomic_mass": 14
+},
+{
+  "symbol": "Cl",
+  "atomic_mass": 35.5
+},
+{
+  "symbol": "F",
+  "atomic_mass": 19
+},
+{
+  "symbol": "Br",
+  "atomic_mass": 80
+},
+{
+  "symbol": "I",
+  "atomic_mass": 127
+},
+{
+  "symbol": "S",
+  "atomic_mass": 32
+},
+{
+  "symbol": "Na",
+  "atomic_mass": 23
+},
+{
+  "symbol": "K",
+  "atomic_mass": 39
+},
+{
+  "symbol": "Ca",
+  "atomic_mass": 40
+},
+{
+  "symbol": "Mg",
+  "atomic_mass": 24
+},
+{
+  "symbol": "P",
+  "atomic_mass": 31
+},
+{
+  "symbol": "Al",
+  "atomic_mass": 27
+},
+{
+  "symbol": "Ag",
+  "atomic_mass": 108
+},
+{
+  "symbol": "Ba",
+  "atomic_mass": 137
+},
+{
+  "symbol": "Be",
+  "atomic_mass": 9
+},
+{
+  "symbol": "B",
+  "atomic_mass": 11
+},
+{
+  "symbol": "Cr",
+  "atomic_mass": 52
+},
+{
+  "symbol": "Cu",
+  "atomic_mass": 64
+},
+{
+  "symbol": "Fe",
+  "atomic_mass": 56
+},
+
+{
+  "symbol": "Li",
+  "atomic_mass": 7
+},
+{
+  "symbol": "Mn",
+  "atomic_mass": 55
+},
+{
+  "symbol": "Hg",
+  "atomic_mass": 201
+},
+{
+  "symbol": "Ni",
+  "atomic_mass": 59
+},
+{
+  "symbol": "Pd",
+  "atomic_mass": 106
+},
+{
+  "symbol": "Pt",
+  "atomic_mass": 195
+},
+{
+  "symbol": "Pb",
+  "atomic_mass": 207
+},
+{
+  "symbol": "Si",
+  "atomic_mass": 28
+},
+{
+  "symbol": "Zn",
+  "atomic_mass": 30
+}
+]

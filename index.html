@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet/less" type="text/css" href="styles_t.less" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
+    <link rel="stylesheet" href="navbar_css.css">
+    <link rel="stylesheet" href="styles_index_text_element.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".cell").click(function () {
+                printDataElement(($(this).find('.symbol').text()));
+                if ($(this).find('.symbol').text()) {
+                    $('html, body').animate({
+                        scrollTop: $(".prop").offset().top
+                    }, 1500);
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Tabelul periodic</a>
+        <a href="masa_calcul_v2.html">Clacul masa</a>
+        <a href="calcul_procent.html">Calcul procent</a>
+        <a href="about.html">Despre</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunctionNavbar()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div>
+        <div class="periodic">
+            <div class="periodic-row">
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">1</div>
+                        <div class="symbol">H</div>
+                        <div class="at_details">Hidrogen<br />1.008</div>
+                    </div>
+                </div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">2</div>
+                        <div class="symbol">He</div>
+                        <div class="at_details">Heliu<br />4.0026</div>
+                    </div>
+                </div>
+            </div>
+            <div class="periodic-row">
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">3</div>
+                        <div class="symbol">Li</div>
+                        <div class="at_details">Litiu<br />6.94</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">4</div>
+                        <div class="symbol">Be</div>
+                        <div class="at_details">Beriliu<br />9.0122</div>
+                    </div>
+                </div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">5</div>
+                        <div class="symbol">B</div>
+                        <div class="at_details">Bor<br />10.81</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">6</div>
+                        <div class="symbol">C</div>
+                        <div class="at_details">Carbon<br />12.011</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">7</div>
+                        <div class="symbol">N</div>
+                        <div class="at_details">Nitrogen<br />14.007</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">8</div>
+                        <div class="symbol">O</div>
+                        <div class="at_details">Oxigen<br />15.999</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">9</div>
+                        <div class="symbol">F</div>
+                        <div class="at_details">Fluor<br />18.998</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">10</div>
+                        <div class="symbol">Ne</div>
+                        <div class="at_details">Neon<br />20.180</div>
+                    </div>
+                </div>
+            </div>
+            <div class="periodic-row">
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">11</div>
+                        <div class="symbol">Na</div>
+                        <div class="at_details">Sodiu<br />22.990</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">12</div>
+                        <div class="symbol">Mg</div>
+                        <div class="at_details">Magneziu<br />24.305</div>
+                    </div>
+                </div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">13</div>
+                        <div class="symbol">Al</div>
+                        <div class="at_details">Aluminiul<br />26.982</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">14</div>
+                        <div class="symbol">Si</div>
+                        <div class="at_details">Siliciul<br />28.085</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">15</div>
+                        <div class="symbol">P</div>
+                        <div class="at_details">Fosfor<br />30.974</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">16</div>
+                        <div class="symbol">S</div>
+                        <div class="at_details">Sulf<br />32.06</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">17</div>
+                        <div class="symbol">Cl</div>
+                        <div class="at_details">Clor<br />35.45</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">18</div>
+                        <div class="symbol">Ar</div>
+                        <div class="at_details">Argon<br />39.948</div>
+                    </div>
+                </div>
+            </div>
+            <div class="periodic-row">
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">19</div>
+                        <div class="symbol">K</div>
+                        <div class="at_details">Potasiu<br />39.098</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">20</div>
+                        <div class="symbol">Ca</div>
+                        <div class="at_details">Calciu<br />40.078</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">21</div>
+                        <div class="symbol">Sc</div>
+                        <div class="at_details">Scandiu<br />44.956</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">22</div>
+                        <div class="symbol">Ti</div>
+                        <div class="at_details">Titaniu<br />47.867</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">23</div>
+                        <div class="symbol">V</div>
+                        <div class="at_details">Vanadiu<br />50.942</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">24</div>
+                        <div class="symbol">Cr</div>
+                        <div class="at_details">Crom<br />51.996</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">25</div>
+                        <div class="symbol">Mn</div>
+                        <div class="at_details">Manganul<br />54.938</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">26</div>
+                        <div class="symbol">Fe</div>
+                        <div class="at_details">Fier<br />55.845</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">27</div>
+                        <div class="symbol">Co</div>
+                        <div class="at_details">Cobalt<br />58.933</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">28</div>
+                        <div class="symbol">Ni</div>
+                        <div class="at_details">Nichel<br />58.693</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">29</div>
+                        <div class="symbol">Cu</div>
+                        <div class="at_details">Cupru<br />63.546</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">30</div>
+                        <div class="symbol">Zn</div>
+                        <div class="at_details">Zinc<br />65.38</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">31</div>
+                        <div class="symbol">Ga</div>
+                        <div class="at_details">Galiu<br />69.723</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">32</div>
+                        <div class="symbol">Ge</div>
+                        <div class="at_details">Germaniu<br />72.63</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">33</div>
+                        <div class="symbol">As</div>
+                        <div class="at_details">Arsenic<br />74.922</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">34</div>
+                        <div class="symbol">Se</div>
+                        <div class="at_details">Seleniu<br />78.96</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">35</div>
+                        <div class="symbol">Br</div>
+                        <div class="at_details">Brom<br />79.904</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">36</div>
+                        <div class="symbol">Kr</div>
+                        <div class="at_details">Kripton<br />83.798</div>
+                    </div>
+                </div>
+            </div>
+            <div class="periodic-row">
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">37</div>
+                        <div class="symbol">Rb</div>
+                        <div class="at_details">Rubidiu<br />85.468</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">38</div>
+                        <div class="symbol">Sr</div>
+                        <div class="at_details">Strontiu<br />87.62</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">39</div>
+                        <div class="symbol">Y</div>
+                        <div class="at_details">Yttrium<br />88.906</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">40</div>
+                        <div class="symbol">Zr</div>
+                        <div class="at_details">Zirconiu<br />91.224</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">41</div>
+                        <div class="symbol">Nb</div>
+                        <div class="at_details">Niobiu<br />92.906</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">42</div>
+                        <div class="symbol">Mo</div>
+                        <div class="at_details">Molibden<br />95.96</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">43</div>
+                        <div class="symbol">Tc</div>
+                        <div class="at_details">Technetium<br />[97.91]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">44</div>
+                        <div class="symbol">Ru</div>
+                        <div class="at_details">Ruteniu<br />101.07</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">45</div>
+                        <div class="symbol">Rh</div>
+                        <div class="at_details">Rodiu<br />102.91</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">46</div>
+                        <div class="symbol">Pd</div>
+                        <div class="at_details">Paladiu<br />106.42</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">47</div>
+                        <div class="symbol">Ag</div>
+                        <div class="at_details">Argint<br />107.87</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">48</div>
+                        <div class="symbol">Cd</div>
+                        <div class="at_details">Cadmiu<br />112.41</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">49</div>
+                        <div class="symbol">In</div>
+                        <div class="at_details">Indiu<br />114.82</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">50</div>
+                        <div class="symbol">Sn</div>
+                        <div class="at_details">Staniul<br />118.71</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">51</div>
+                        <div class="symbol">Sb</div>
+                        <div class="at_details">Stibiu<br />121.76</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">52</div>
+                        <div class="symbol">Te</div>
+                        <div class="at_details">Telur<br />127.60</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">53</div>
+                        <div class="symbol">I</div>
+                        <div class="at_details">Iod<br />126.90</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">54</div>
+                        <div class="symbol">Xe</div>
+                        <div class="at_details">Xenon<br />131.29</div>
+                    </div>
+                </div>
+            </div>
+            <div class="periodic-row">
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">55</div>
+                        <div class="symbol">Cs</div>
+                        <div class="at_details">Cesiu<br />132.91</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">56</div>
+                        <div class="symbol">Ba</div>
+                        <div class="at_details">Bariu<br />137.33</div>
+                    </div>
+                </div>
+                <div class="cell"></div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">72</div>
+                        <div class="symbol">Hf</div>
+                        <div class="at_details">Hafniu<br />178.49</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">73</div>
+                        <div class="symbol">Ta</div>
+                        <div class="at_details">Tantal<br />180.95</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">74</div>
+                        <div class="symbol">W</div>
+                        <div class="at_details">Tungsten<br />183.84</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">75</div>
+                        <div class="symbol">Re</div>
+                        <div class="at_details">Reniu<br />186.21</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">76</div>
+                        <div class="symbol">Os</div>
+                        <div class="at_details">Osmiu<br />190.23</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">77</div>
+                        <div class="symbol">Ir</div>
+                        <div class="at_details">Iridiu<br />192.22</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">78</div>
+                        <div class="symbol">Pt</div>
+                        <div class="at_details">Platina<br />195.08</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">79</div>
+                        <div class="symbol">Au</div>
+                        <div class="at_details">Aur<br />196.97</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">80</div>
+                        <div class="symbol">Hg</div>
+                        <div class="at_details">Mercur<br />200.59</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">81</div>
+                        <div class="symbol">Tl</div>
+                        <div class="at_details">Taliu<br />204.38</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">82</div>
+                        <div class="symbol">Pb</div>
+                        <div class="at_details">Plumb<br />207.2</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">83</div>
+                        <div class="symbol">Bi</div>
+                        <div class="at_details">Bismut<br />208.98</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">84</div>
+                        <div class="symbol">Po</div>
+                        <div class="at_details">Poloniu<br />[208.98]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">85</div>
+                        <div class="symbol">At</div>
+                        <div class="at_details">Astatin<br />[209.99]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">86</div>
+                        <div class="symbol">Rn</div>
+                        <div class="at_details">Radon<br />[222.02]</div>
+                    </div>
+                </div>
+            </div>
+            <div class="periodic-row">
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">87</div>
+                        <div class="symbol">Fr</div>
+                        <div class="at_details">Franciu<br />[223.02]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">88</div>
+                        <div class="symbol">Ra</div>
+                        <div class="at_details">Radiu<br />[226.03]</div>
+                    </div>
+                </div>
+                <div class="cell"></div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">104</div>
+                        <div class="symbol">Rf</div>
+                        <div class="at_details">Rutherfordiu<br />[265.12]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">105</div>
+                        <div class="symbol">Db</div>
+                        <div class="at_details">Dubniul<br />[268.13]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">106</div>
+                        <div class="symbol">Sg</div>
+                        <div class="at_details">Seaborgiu<br />[271.13]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">107</div>
+                        <div class="symbol">Bh</div>
+                        <div class="at_details">Bohriu<br />[270]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">108</div>
+                        <div class="symbol">Hs</div>
+                        <div class="at_details">Hassiu<br />[277.15]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">109</div>
+                        <div class="symbol">Mt</div>
+                        <div class="at_details">Meitneriu<br />[276.15]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">110</div>
+                        <div class="symbol">Ds</div>
+                        <div class="at_details">Darmstadtiu<br />[281.16]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">111</div>
+                        <div class="symbol">Rg</div>
+                        <div class="at_details">Roentgeniu<br />[280.16]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">112</div>
+                        <div class="symbol">Cn</div>
+                        <div class="at_details">Coperniciu<br />[285.17]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">113</div>
+                        <div class="symbol">Nh</div>
+                        <div class="at_details">Nihoniu<br />[284.18]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">114</div>
+                        <div class="symbol">Fl</div>
+                        <div class="at_details">Fleroviu<br />[289.19]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">115</div>
+                        <div class="symbol">Mc</div>
+                        <div class="at_details">Moscoviu<br />[288.19]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">116</div>
+                        <div class="symbol">Lv</div>
+                        <div class="at_details">Livermoriu<br />[293]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">117</div>
+                        <div class="symbol">Ts</div>
+                        <div class="at_details">Tennessin<br />[294]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">118</div>
+                        <div class="symbol">Og</div>
+                        <div class="at_details">Oganesson<br />[294]</div>
+                    </div>
+                </div>
+            </div>
+            <div class="periodic-row"></div>
+            <div class="periodic-row">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">57</div>
+                        <div class="symbol">La</div>
+                        <div class="at_details">Lantan<br />138.91</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">58</div>
+                        <div class="symbol">Ce</div>
+                        <div class="at_details">Ceriu<br />140.12</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">59</div>
+                        <div class="symbol">Pr</div>
+                        <div class="at_details">Praseodium<br />140.91</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">60</div>
+                        <div class="symbol">Nd</div>
+                        <div class="at_details">Neodim<br />144.24</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">61</div>
+                        <div class="symbol">Pm</div>
+                        <div class="at_details">Prometiu<br />[144.91]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">62</div>
+                        <div class="symbol">Sm</div>
+                        <div class="at_details">Samariu<br />150.36</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">63</div>
+                        <div class="symbol">Eu</div>
+                        <div class="at_details">Europiu<br />151.96</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">64</div>
+                        <div class="symbol">Gd</div>
+                        <div class="at_details">Gadoliniu<br />157.25</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">65</div>
+                        <div class="symbol">Tb</div>
+                        <div class="at_details">Terbiu<br />158.93</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">66</div>
+                        <div class="symbol">Dy</div>
+                        <div class="at_details">Disprosiu<br />162.50</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">67</div>
+                        <div class="symbol">Ho</div>
+                        <div class="at_details">Holmiu<br />164.93</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">68</div>
+                        <div class="symbol">Er</div>
+                        <div class="at_details">Erbiu<br />167.26</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">69</div>
+                        <div class="symbol">Tm</div>
+                        <div class="at_details">Tuliu<br />168.93</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">70</div>
+                        <div class="symbol">Yb</div>
+                        <div class="at_details">Yterbiu<br />173.05</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">71</div>
+                        <div class="symbol">Lu</div>
+                        <div class="at_details">Lutetiu<br />174.97</div>
+                    </div>
+                </div>
+            </div>
+            <div class="periodic-row">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">89</div>
+                        <div class="symbol">Ac</div>
+                        <div class="at_details">Actiniu<br />[227.03]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">90</div>
+                        <div class="symbol">Th</div>
+                        <div class="at_details">Toriu<br />232.04</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">91</div>
+                        <div class="symbol">Pa</div>
+                        <div class="at_details">Protactiniu<br />231.04</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">92</div>
+                        <div class="symbol">U</div>
+                        <div class="at_details">Uraniu<br />238.03</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">93</div>
+                        <div class="symbol">Np</div>
+                        <div class="at_details">Neptuniu<br />[237.05]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">94</div>
+                        <div class="symbol">Pu</div>
+                        <div class="at_details">Plutoniu<br />[244.06]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">95</div>
+                        <div class="symbol">Am</div>
+                        <div class="at_details">Americiu<br />[243.06]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">96</div>
+                        <div class="symbol">Cm</div>
+                        <div class="at_details">Curiu<br />[247.07]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">97</div>
+                        <div class="symbol">Bk</div>
+                        <div class="at_details">Berkeliu<br />[247.07]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">98</div>
+                        <div class="symbol">Cf</div>
+                        <div class="at_details">Californiu<br />[251.08]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">99</div>
+                        <div class="symbol">Es</div>
+                        <div class="at_details">Einsteiniu<br />[252.08]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">100</div>
+                        <div class="symbol">Fm</div>
+                        <div class="at_details">Fermiul<br />[257.10]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">101</div>
+                        <div class="symbol">Md</div>
+                        <div class="at_details">Mendeleviu<br />[258.10]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">102</div>
+                        <div class="symbol">No</div>
+                        <div class="at_details">Nobeliu<br />[259.10]</div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="element">
+                        <div class="at_num">103</div>
+                        <div class="symbol">Lr</div>
+                        <div class="at_details">Lawrenciul<br />[262.11]</div>
+                    </div>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+    </div>
+    <br><br>
+    <center>
+        <div class="prop">
+            <div id="name"></div>
+            <div id="appearance"></div>
+            <div id="atomic_mass"></div>
+            <div id="boil"></div>
+            <div id="category"></div>
+            <div id="color"></div>
+            <div id="density"></div>
+            <div id="discovered_by"></div>
+            <div id="melt"></div>
+            <div id="molar_heat"></div>
+            <div id="named_by"></div>
+            <div id="number"></div>
+            <div id="period"></div>
+            <div id="phase"></div>
+            <!--<div id="source"></div>
+        <a href="#" id="spectral_img" >spectral img</a>-->
+            <div id="summary"></div>
+            <div id="symbol"></div>
+            <div id="shells"></div>
+            <div id="electron_configuration"></div>
+            <div id="electron_affinity"></div>
+            <div id="electronegativity_pauling"></div>
+        </div>
+    </center>
+    <br>
+    <script type="text/javascript" src="elements.json"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

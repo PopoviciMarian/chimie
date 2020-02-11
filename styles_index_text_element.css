@@ -1,0 +1,284 @@
+body {
+    background-color: rgb(255, 255, 255);
+    background-image: url('Chimie.png');
+}
+.prop{
+    width: 95%;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    max-width: 100%;
+    background-color: rgba(201, 252, 199, 0.76);
+    transition: .3s ease;
+    box-shadow: 0 1px 1px rgba(51, 50, 50, 0.3);
+    font-size: 3vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(1, 69, 71);
+
+}
+.prop:hover {
+    box-shadow: 0 5px 20px rgba(0,0,0,.8);
+    transform: translateY(-10px) scale(1.02);
+  }
+
+#name{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+#appearance{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+#atomic_mass{
+  
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+#boil{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+#category{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+#color{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+#density{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+#discovered_by{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+#melt{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+#molar_heat{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+#named_by{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+#number{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+#period{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+#phase{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+#summary{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+#symbol{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+#shells{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+#electron_configuration{    
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+#electron_affinity{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+#electronegativity_pauling{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+#ionization_energies{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+/*------------------------------------------------------------------------------------hover------------------------------------------------*/
+
+#name:hover{
+    background-color: rgba(153, 252, 150, 0.76);
+}
+#appearance:hover{
+    background-color: rgba(153, 252, 150, 0.76);
+}
+#atomic_mass:hover{
+    background-color: rgba(153, 252, 150, 0.76);
+}
+#boil:hover{
+     background-color: rgba(153, 252, 150, 0.76);
+}
+#category:hover{
+    background-color: rgba(153, 252, 150, 0.76);
+}
+#color:hover{
+    background-color: rgba(153, 252, 150, 0.76);
+}
+#density:hover{
+    background-color: rgba(153, 252, 150, 0.76);
+}
+#discovered_by:hover{
+    background-color: rgba(153, 252, 150, 0.76);
+}
+#melt:hover{
+    background-color: rgba(153, 252, 150, 0.76);
+}
+#molar_heat:hover{
+    background-color: rgba(153, 252, 150, 0.76);
+}
+#named_by:hover{
+    background-color: rgba(153, 252, 150, 0.76);
+}
+#number:hover{
+    background-color: rgba(153, 252, 150, 0.76);
+}
+
+#period:hover{
+    background-color: rgba(153, 252, 150, 0.76);
+}
+#phase:hover{
+    background-color: rgba(153, 252, 150, 0.76);
+}
+#summary:hover{
+    background-color: rgba(153, 252, 150, 0.76);
+}
+#symbol:hover{
+    background-color: rgba(153, 252, 150, 0.76);
+}
+#shells:hover{
+    background-color: rgba(153, 252, 150, 0.76);
+}
+#electron_configuration:hover{
+    background-color: rgba(153, 252, 150, 0.76);
+}
+#electron_affinity:hover{
+    background-color: rgba(153, 252, 150, 0.76);
+}
+#electronegativity_pauling:hover{
+    background-color: rgba(153, 252, 150, 0.76);
+}
+#ionization_energies:hover{
+    background-color: rgba(153, 252, 150, 0.76);
+    
+}
+
+div #name:empty {
+    display: none;
+ }
+
+ div #appearance:empty {
+    display: none;
+ }
+ div #atomic_mass:empty {
+    display: none;
+ }
+ div #boil:empty {
+    display: none;
+ }
+ div #category:empty {
+    display: none;
+ }
+ div #color:empty {
+    display: none;
+ }
+ div #density:empty {
+    display: none;
+ }
+ div #discovered_by:empty {
+    display: none;
+ }
+ div #melt:empty {
+    display: none;
+ }
+ div #molar_heat:empty {
+    display: none;
+ }
+ div #named_by:empty {
+    display: none;
+ }
+ div #number:empty {
+    display: none;
+ }
+ div #period:empty {
+    display: none;
+ }
+ div #phase:empty {
+    display: none;
+ }
+
+ div #symbol:empty {
+    display: none;
+ }
+ div #summary:empty {
+    display: none;
+ }
+ 
+ div #shells:empty {
+    display: none;
+ }
+ div #electron_configuration:empty {
+    display: none;
+ }
+ div #electron_affinity:empty {
+    display: none;
+ }
+ div #electronegativity_pauling:empty {
+    display: none;
+ }
+ div #ionization_energies:empty {
+    display: none;
+ }
