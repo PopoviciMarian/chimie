@@ -127,4 +127,3 @@ function calcul_masa() {
         
     })
 }
-
