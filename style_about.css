@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(255, 255, 255);
+    background-image: url('Chimie.png');
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text_a{
+    width: 82%;
+    max-width: 100%;
+    background-color: rgba(201, 252, 199, 0.76);
+    transition: .3s ease;
+    box-shadow: 0 1px 1px rgba(51, 50, 50, 0.3);
+    font-size: 3vh;
+    color: rgb(1, 69, 71);
+    margin-top: 40px;
+    padding: 30px;
+}
+
+.text_a:hover {
+    box-shadow: 0 5px 20px rgba(0,0,0,.8);
+    transform: translateY(-10px) scale(1.02);
+  }
+
+  .text_a b{
+      font-size: 40px;
+  }

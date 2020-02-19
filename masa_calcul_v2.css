@@ -65,6 +65,13 @@ background-color: turquoise;
 background-color: rgb(66, 240, 222);
 }
 
+
+#result  {
+  font-family: sans-serif;
+  font-size: 30px;
+  word-wrap: break-word;
+  }
+
 #result c {
 font-family: sans-serif;
 font-size: 50px;
